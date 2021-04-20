@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #ffffff;
+    color: #000000;
+}
+#container {
+    width: 1000px;
+    height: 900px;
+    background: #ffffff url(../images/siteBackground6.jpg) left top no-repeat;
+    margin: 0 auto;
+    text-align: left;
+}
+#header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#header h1 {
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-size: 48px;
+}
+h1, h2, h3 {
+    color: green;
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.navbar navbar-expand-lg navbar-light bg-light{
+    border: thin solid  grey;
+
+}
+#sidebar1{
+    height: 600px;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   background-color:rgb(211, 240, 168);;
+    overflow-x: hidden;
+    padding-top: 150px;
+    margin-top: 150px;
+   margin-left: 100px ;
+   float: left;
+   border: thin solid  grey;
+}
+#sidebar2{
+    height: 600px;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+   background-color:rgb(211, 240, 168);
+    overflow-x: hidden;
+    padding-top: 150px;
+    margin-top: 150px;
+   margin-right: 100px ;
+   float: right;
+   border: thin solid  grey;
+
+}
+P{
+    float: center;
+    font-size: 15px;
+    position: relative;
+    text-align: justify;
+    margin-right: 10px;
+}
+#mainContainer{
+    width: 400px;
+    height: 600px;
+}
+.middle-div img{
+    position: fixed;
+    margin-left: 300px;
+    
+}
+.img{
+    position: fixed;
+    overflow: hidden;
+}
+#footer{
+    border: thin solid  grey;
+    font-size: 100px;
+    bottom: 0;
+    position: sticky;
+    margin-top: 200px;
+    background-color: springgreen;
+    
+}
+
